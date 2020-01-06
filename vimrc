@@ -91,15 +91,4 @@ map tl :+tabnext<CR>
 map sv <C-w>t<C-w>H
 map sh <C-w>t<C-w>K
 
-call plug#begin('~/.vim/plugged')
-
-Plug 'vim-airline/vim-airline'
-Plug 'connorholyday/vim-snazzy'
-
-
-
-call plug#end()
-
-let g:SnazzyTransparent = 1
-color snazzy
 
